@@ -1,6 +1,5 @@
 use std::path::PathBuf;
-use std::time::{SystemTime, UNIX_EPOCH};
-use std::{ffi::OsString, path::Path};
+use std::path::Path;
 use chrono::Utc;
 
 use clap::Parser;
