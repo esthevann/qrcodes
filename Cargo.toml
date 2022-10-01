@@ -6,4 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "0.4.22"
+clap = { version = "4.0.7", features = ["derive"] }
+image = "0.23"
+miette = { version = "5.3.0", features = ["fancy"] }
 qrcode = "0.12.0"
